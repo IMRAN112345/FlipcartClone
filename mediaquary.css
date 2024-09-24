@@ -1,0 +1,123 @@
+@media screen and (max-width:600px) {
+    header {
+        height: 20vh;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 10vh;
+        justify-content: center;
+    }
+
+    .search {
+        margin-top: 2vh;
+        height: 3vh;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .search input {
+        width: 60vw;
+    }
+
+    .search button {
+        width: 15vw;
+        font-size: 3vw;
+    }
+
+    ul {
+
+        height: 6vh;
+        align-items: center;
+        margin: 0 1vw;
+        margin-top: 1vh;
+        font-size: 4vw;
+    }
+
+    .logo {
+        height: 3.5vh;
+        margin-top: 1vh;
+    }
+
+    .container {
+        height: calc(100vh - 20vh - 15vh);
+        overflow-x: hidden;
+    }
+
+    .slider {
+        height: 30vh;
+        width: 100vw;
+        margin-top: 1vh;
+        box-sizing: border-box;
+        margin-bottom: 2vh;
+    }
+
+    .slider img {
+        width: 300px;
+        height: 200px;
+    }
+
+    h2 {
+        font-size: 4vw;
+        margin-top: 1vh;
+        margin-bottom: 0;
+    }
+
+    .card1 {
+        display: flex;
+        padding: 1vh 0;
+
+    }
+
+    .carditem img {
+        padding: 1vh 0;
+        margin: 1vh 0;
+        height: 200px;
+    }
+
+    .lines {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4vh 0;
+        margin: 3vh 0;
+        width: 50vw;
+        padding-bottom: 3vh;
+    }
+
+    .line1 {
+        padding-right: 15vw;
+        padding-top: 8vw;
+    }
+
+    .line2 {
+        padding-right: 18vw;
+    }
+
+    .line3 {
+        padding-right: 26vw;
+        padding-bottom: 3vh;
+    }
+
+    .line4 {
+
+        padding-bottom: 3vh;
+        padding-right: 23vw;
+    }
+
+    .line5 {
+        padding-right: 12vw;
+        padding-bottom: 3vh;
+    }
+
+    .line6 {
+        padding-bottom: 8vh;
+        padding-right: 4vw;
+    }
+
+    footer {
+        height: 14.5vh;
+    }
+}
